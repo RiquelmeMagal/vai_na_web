@@ -1,0 +1,26 @@
+img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.section1 {
+  background-color: #BAF3F6;
+}
+
+.section2 {
+  background-color: #BAF3F6;
+}
+
+h1 {
+  color: #F587DD;
+}
+
+h2 {
+  color: #F587DD;
+}
+
+.footer {
+  color: black;
+  text-align: center;
+  background-color: #D9D9D9;
+}/*# sourceMappingURL=style.css.map */
