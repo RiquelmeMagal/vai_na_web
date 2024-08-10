@@ -1,16 +1,46 @@
+@charset "UTF-8";
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Padding global */
+body, html {
+  padding: 20px;
+  min-height: 100vh; /* Para garantir que o body ocupe pelo menos 100% da altura da janela */
+  position: relative; /* Permite posicionar o footer relativo ao body */
+}
+
+/* Espaçamento entre elementos de bloco */
+h1, h2, p, ol, ul {
+  margin-bottom: 20px;
+}
+
+/* Estilo para listas */
+ol, ul {
+  padding-left: 20px;
+  list-style-position: inside;
+}
+
+/* Imagem */
 img {
   height: 200px;
   border-radius: 50%;
 }
 
+/* Seção 1 */
 .section1 {
   background-color: #BAF3F6;
 }
 
+/* Seção 2 */
 .section2 {
   background-color: #BAF3F6;
 }
 
+/* Cabeçalhos */
 h1 {
   color: #F587DD;
 }
@@ -19,8 +49,14 @@ h2 {
   color: #F587DD;
 }
 
+/* Rodapé fixo */
 .footer {
   color: black;
   text-align: center;
   background-color: #D9D9D9;
+  position: absolute; /* Posiciona o footer de forma absoluta em relação ao body */
+  bottom: 0; /* Fixa o footer na parte inferior */
+  left: 0;
+  width: 100%; /* Faz o footer ocupar toda a largura da página */
+  padding: 10px 20px; /* Padding interno do footer */
 }/*# sourceMappingURL=style.css.map */
